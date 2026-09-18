@@ -4,4 +4,6 @@
     "source.fixAll": "explicit"
   },
   "eslint.run": "onSave",
+  "scm.diffDecorations": "none",
+  "git.mergeEditor": false
 }

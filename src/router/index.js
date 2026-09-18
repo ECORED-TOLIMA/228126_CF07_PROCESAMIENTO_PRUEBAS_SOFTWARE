@@ -1,15 +1,12 @@
-import Vue from 'vue'
-import VueRouter from 'vue-router'
-import Inicio from 'ecored-pkg-fliz/plugin/components/Inicio.vue'
-import Curso from 'ecored-pkg-fliz/plugin/components/plantilla/Curso.vue'
-import Glosario from 'ecored-pkg-fliz/plugin/components/Glosario.vue'
-import Referencias from 'ecored-pkg-fliz/plugin/components/Referencias.vue'
-import Creditos from 'ecored-pkg-fliz/plugin/components/Creditos.vue'
-import Complementario from 'ecored-pkg-fliz/plugin/components/Complementario.vue'
+import { createRouter, createWebHashHistory } from 'vue-router'
+import Inicio from '@ecored-sena/boulder-kit/plugin/components/Inicio.vue'
+import Curso from '@ecored-sena/boulder-kit/plugin/components/plantilla/Curso.vue'
+import Glosario from '@ecored-sena/boulder-kit/plugin/components/Glosario.vue'
+import Referencias from '@ecored-sena/boulder-kit/plugin/components/Referencias.vue'
+import Creditos from '@ecored-sena/boulder-kit/plugin/components/Creditos.vue'
 
-Vue.use(VueRouter)
-
-const router = new VueRouter({
+const router = createRouter({
+  history: createWebHashHistory(),
   routes: [
     {
       path: '/',
@@ -48,6 +45,24 @@ const router = new VueRouter({
           component: () =>
             import(/* webpackChunkName: "tema3" */ '../views/Tema3.vue'),
         },
+        {
+          path: 'tema4',
+          name: 'tema4',
+          component: () =>
+            import(/* webpackChunkName: "tema4" */ '../views/Tema4.vue'),
+        },
+        {
+          path: 'tema5',
+          name: 'tema5',
+          component: () =>
+            import(/* webpackChunkName: "tema5" */ '../views/Tema5.vue'),
+        },
+        {
+          path: 'tema6',
+          name: 'tema6',
+          component: () =>
+            import(/* webpackChunkName: "tema6" */ '../views/Tema6.vue'),
+        },
       ],
     },
     {
@@ -62,11 +77,6 @@ const router = new VueRouter({
       component: Glosario,
     },
     {
-      path: '/complementario',
-      name: 'complementario',
-      component: Complementario,
-    },
-    {
       path: '/referencias',
       name: 'referencias',
       component: Referencias,
@@ -75,7 +85,7 @@ const router = new VueRouter({
       path: '/sintesis',
       name: 'sintesis',
       component: () =>
-        import(/* webpackChunkName: "sintesis" */ '../views/sintesis.vue'),
+        import(/* webpackChunkName: "sintesis" */ '../views/Sintesis.vue'),
     },
     {
       path: '/creditos',
@@ -86,14 +96,14 @@ const router = new VueRouter({
   scrollBehavior(to, from) {
     if (to.hash) {
       const newRoute = {
-        selector: to.hash,
-        offset: { y: 100 },
+        el: to.hash,
+        top: 100,
         behavior: 'smooth',
       }
       if (to.name === from.name) {
         return newRoute
       } else {
-        return new Promise(resolve => {
+        return new Promise((resolve) => {
           setTimeout(() => {
             resolve(newRoute)
           }, 500)

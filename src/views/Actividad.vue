@@ -2,426 +2,695 @@
   .curso-main-container.pb-3
     BannerInterno(icono="far fa-question-circle" titulo="Actividad didáctica")
     .container.tarjeta.tarjeta--blanca.p-4.p-md-5
-  
+      // Para cuestionario usar: <ActividadController :cuestionario="cuestionario"/>
+      // Para parrafo usar: <ActividadController :parrafo="parrafo"/>
       #Actividad                
-        <Actividad :cuestionario="cuestionario"/>
+      <ActividadController :cuestionario="cuestionario"/>
   
   </template>
 
 <script>
-import Actividad from 'ecored-pkg-fliz/plugin/components/actividad/Actividad.vue'
+import ActividadController from '@ecored-sena/boulder-kit/plugin/components/actividad/ActividadController.vue'
+
 export default {
   name: 'ActividadDidactica',
   components: {
-    Actividad,
+    ActividadController,
   },
   data: () => ({
     cuestionario: {
       tema: 'Microcontroladores y sensores',
       titulo: 'Cuestionario',
       introduccion:
-        '<b> Objetivo:</b> Evaluar la comprensión y el uso adecuado de las herramientas básicas en la ventana <em>Board</em> del <em>software</em> EAGLE.',
+        '<b> Objetivo:</b> verificar la comprensión de los conceptos fundamentales de la programación orientada a objetos, el modelado de <em>software</em>, la implementación de clases en Java, la herencia, el polimorfismo y las prácticas básicas para el desarrollo, depuración y validación de aplicaciones.',
       barajarPreguntas: true,
       titulo_aprobado: '¡BUEN TRABAJO!',
-      titulo_reprobado: 'VUELVA A INTENTARLO.',
+      titulo_reprobado: 'VUELVA A INTENTARLO',
       preguntas: [
         {
           id: 1,
           texto:
-            '¿Cuál es la función principal de la herramienta <em>Layer</em> en la ventana <em>Board</em>?',
-          imagen: require('@/assets/actividad/imagen1.png'),
+            '¿Cuál es una característica de la programación orientada a objetos?',
+          imagen: '@/assets/actividad/imagen1.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'tPlace',
-              esCorrecta: true,
-            },
-            {
-              id: 'b',
-              texto: 'bNames',
+              texto: 'Ejecutar instrucciones sin utilizar clases.',
               esCorrecta: false,
             },
             {
+              id: 'b',
+              texto:
+                'Organizar el <em>software</em> mediante objetos que representan entidades del problema.',
+              esCorrecta: true,
+            },
+            {
               id: 'c',
-              texto: 'tStop',
+              texto: 'Eliminar el uso de métodos.',
               esCorrecta: false,
             },
             {
               id: 'd',
-              texto: 'bValues',
+              texto: 'Reemplazar los algoritmos por diagramas.',
               esCorrecta: false,
             },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          mensaje_correcto:
+            '¡Excelente trabajo! Se evidencia un buen dominio de los conceptos fundamentales de la programación orientada a objetos y su aplicación en el desarrollo, implementación y depuración de aplicaciones.',
+          mensaje_incorrecto:
+            'Revise nuevamente el contenido del componente formativo.',
         },
         {
           id: 2,
           texto:
-            '¿Qué herramienta permite agregar texto en la ventana <em>Board</em>?',
-          imagen: require('@/assets/actividad/imagen2.png'),
+            'En programación orientada a objetos, una clase corresponde a:',
+          imagen: '@/assets/actividad/imagen2.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'tPlace',
-              esCorrecta: true,
+              texto: 'Un objeto en ejecución.',
+              esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'bNames',
+              texto: 'Una variable global.',
               esCorrecta: false,
             },
             {
               id: 'c',
-              texto: 'tStop',
+              texto: 'Un algoritmo.',
               esCorrecta: false,
             },
             {
               id: 'd',
-              texto: 'bValues',
-              esCorrecta: false,
+              texto:
+                'Un modelo que define atributos y métodos para crear objetos.',
+              esCorrecta: true,
             },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          mensaje_correcto:
+            '¡Excelente trabajo! Se evidencia un buen dominio de los conceptos fundamentales de la programación orientada a objetos y su aplicación en el desarrollo, implementación y depuración de aplicaciones.',
+          mensaje_incorrecto:
+            'Revise nuevamente el contenido del componente formativo.',
         },
         {
           id: 3,
-          texto: '¿Para qué sirve la herramienta <em>Show</em> en EAGLE?',
-          imagen: require('@/assets/actividad/imagen3.png'),
+          texto: '¿Qué representa un objeto?',
+          imagen: '@/assets/actividad/imagen3.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'tPlace',
+              texto: 'Una instancia creada a partir de una clase.',
               esCorrecta: true,
             },
             {
               id: 'b',
-              texto: 'bNames',
+              texto: 'Un método de una clase.',
               esCorrecta: false,
             },
             {
               id: 'c',
-              texto: 'tStop',
+              texto: 'Un compilador.',
               esCorrecta: false,
             },
             {
               id: 'd',
-              texto: 'bValues',
+              texto: 'Un algoritmo.',
               esCorrecta: false,
             },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          mensaje_correcto:
+            '¡Excelente trabajo! Se evidencia un buen dominio de los conceptos fundamentales de la programación orientada a objetos y su aplicación en el desarrollo, implementación y depuración de aplicaciones.',
+          mensaje_incorrecto:
+            'Revise nuevamente el contenido del componente formativo.',
         },
         {
           id: 4,
           texto:
-            '¿Qué botón se utiliza para cambiar entre las ventanas <em>Schematic</em> y <em>Board</em>?',
-          imagen: require('@/assets/actividad/imagen4.png'),
+            '¿Cuál de los siguientes elementos almacena las características de un objeto?',
+          imagen: '@/assets/actividad/imagen4.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'tPlace',
-              esCorrecta: true,
-            },
-            {
-              id: 'b',
-              texto: 'bNames',
+              texto: 'Los métodos.',
               esCorrecta: false,
             },
             {
+              id: 'b',
+              texto: 'Los atributos.',
+              esCorrecta: true,
+            },
+            {
               id: 'c',
-              texto: 'tStop',
+              texto: 'Los parámetros.',
               esCorrecta: false,
             },
             {
               id: 'd',
-              texto: 'bValues',
+              texto: 'Los constructores.',
               esCorrecta: false,
             },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          mensaje_correcto:
+            '¡Excelente trabajo! Se evidencia un buen dominio de los conceptos fundamentales de la programación orientada a objetos y su aplicación en el desarrollo, implementación y depuración de aplicaciones.',
+          mensaje_incorrecto:
+            'Revise nuevamente el contenido del componente formativo.',
         },
         {
           id: 5,
-          texto: '¿Qué permite hacer la herramienta <em>Route</em>?',
-          imagen: require('@/assets/actividad/imagen1.png'),
+          texto: 'Los métodos de una clase permiten:',
+          imagen: '@/assets/actividad/imagen5.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'tPlace',
-              esCorrecta: true,
+              texto: 'Declarar variables.',
+              esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'bNames',
+              texto: 'Crear diagramas UML.',
               esCorrecta: false,
             },
             {
               id: 'c',
-              texto: 'tStop',
-              esCorrecta: false,
+              texto: 'Definir las acciones o comportamientos de los objetos.',
+              esCorrecta: true,
             },
             {
               id: 'd',
-              texto: 'bValues',
+              texto: 'Reemplazar los atributos.',
               esCorrecta: false,
             },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          mensaje_correcto:
+            '¡Excelente trabajo! Se evidencia un buen dominio de los conceptos fundamentales de la programación orientada a objetos y su aplicación en el desarrollo, implementación y depuración de aplicaciones.',
+          mensaje_incorrecto:
+            'Revise nuevamente el contenido del componente formativo.',
         },
         {
           id: 6,
-          texto:
-            '¿Qué función tiene la herramienta <em>Auto</em> en la ventana <em>Board</em>?',
-          imagen: require('@/assets/actividad/imagen2.png'),
+          texto: '¿Cuál es el propósito principal del UML?',
+          imagen: '@/assets/actividad/imagen6.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'tPlace',
-              esCorrecta: true,
+              texto: 'Compilar programas.',
+              esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'bNames',
+              texto: 'Ejecutar aplicaciones.',
               esCorrecta: false,
             },
             {
               id: 'c',
-              texto: 'tStop',
+              texto: 'Administrar bases de datos.',
               esCorrecta: false,
             },
             {
               id: 'd',
-              texto: 'bValues',
-              esCorrecta: false,
+              texto: 'Modelar y representar el diseño del <em>software</em>.',
+              esCorrecta: true,
             },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          mensaje_correcto:
+            '¡Excelente trabajo! Se evidencia un buen dominio de los conceptos fundamentales de la programación orientada a objetos y su aplicación en el desarrollo, implementación y depuración de aplicaciones.',
+          mensaje_incorrecto:
+            'Revise nuevamente el contenido del componente formativo.',
         },
         {
           id: 7,
-          texto:
-            '¿Cuál es una recomendación al ubicar los componentes en la ventana <em>Board</em>?',
-          imagen: require('@/assets/actividad/imagen3.png'),
+          texto: 'Un diagrama de clases permite representar principalmente:',
+          imagen: '@/assets/actividad/imagen7.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'tPlace',
+              texto: 'Las clases, sus atributos, métodos y relaciones.',
               esCorrecta: true,
             },
             {
               id: 'b',
-              texto: 'bNames',
+              texto: 'Los errores del programa.',
               esCorrecta: false,
             },
             {
               id: 'c',
-              texto: 'tStop',
+              texto: 'La ejecución del compilador.',
               esCorrecta: false,
             },
             {
               id: 'd',
-              texto: 'bValues',
+              texto: 'Los resultados de una prueba.',
               esCorrecta: false,
             },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          mensaje_correcto:
+            '¡Excelente trabajo! Se evidencia un buen dominio de los conceptos fundamentales de la programación orientada a objetos y su aplicación en el desarrollo, implementación y depuración de aplicaciones.',
+          mensaje_incorrecto:
+            'Revise nuevamente el contenido del componente formativo.',
         },
         {
           id: 8,
-          texto:
-            '¿Cuál de las siguientes capas se utiliza para añadir texto en el diseño?',
-          imagen: require('@/assets/actividad/imagen4.png'),
+          texto: '¿Qué función cumplen las herramientas CASE?',
+          imagen: '@/assets/actividad/imagen8.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'tPlace',
-              esCorrecta: true,
-            },
-            {
-              id: 'b',
-              texto: 'bNames',
+              texto: 'Reemplazar el lenguaje Java.',
               esCorrecta: false,
             },
             {
+              id: 'b',
+              texto: 'Apoyar el modelado y diseño del <em>software</em>.',
+              esCorrecta: true,
+            },
+            {
               id: 'c',
-              texto: 'tStop',
+              texto: 'Corregir automáticamente todos los errores.',
               esCorrecta: false,
             },
             {
               id: 'd',
-              texto: 'bValues',
+              texto: 'Ejecutar únicamente diagramas UML.',
               esCorrecta: false,
             },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          mensaje_correcto:
+            '¡Excelente trabajo! Se evidencia un buen dominio de los conceptos fundamentales de la programación orientada a objetos y su aplicación en el desarrollo, implementación y depuración de aplicaciones.',
+          mensaje_incorrecto:
+            'Revise nuevamente el contenido del componente formativo.',
         },
         {
           id: 9,
-          texto:
-            'La herramienta <em>Text</em> en la ventana <em>Board</em> solo permite cambiar el color de las capas.',
-          imagen: require('@/assets/actividad/imagen1.png'),
+          texto: '¿Cuál es la función principal de un constructor en Java?',
+          imagen: '@/assets/actividad/imagen9.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Verdadero',
+              texto: 'Eliminar objetos.',
               esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'Falso',
+              texto: 'Declarar atributos.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: 'Inicializar un objeto cuando es creado.',
               esCorrecta: true,
             },
+            {
+              id: 'd',
+              texto: 'Ejecutar el programa principal.',
+              esCorrecta: false,
+            },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          mensaje_correcto:
+            '¡Excelente trabajo! Se evidencia un buen dominio de los conceptos fundamentales de la programación orientada a objetos y su aplicación en el desarrollo, implementación y depuración de aplicaciones.',
+          mensaje_incorrecto:
+            'Revise nuevamente el contenido del componente formativo.',
         },
         {
           id: 10,
           texto:
-            'La herramienta <em>Layer</em> permite seleccionar y editar capas para definir márgenes, pistas y componentes.',
-          imagen: require('@/assets/actividad/imagen2.png'),
+            '¿Cuál de los siguientes es un especificador de acceso en Java?',
+          imagen: '@/assets/actividad/imagen10.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Verdadero',
-              esCorrecta: true,
+              texto: 'import',
+              esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'Falso',
+              texto: 'return',
               esCorrecta: false,
             },
+            {
+              id: 'c',
+              texto: 'static',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'public',
+              esCorrecta: true,
+            },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          mensaje_correcto:
+            '¡Excelente trabajo! Se evidencia un buen dominio de los conceptos fundamentales de la programación orientada a objetos y su aplicación en el desarrollo, implementación y depuración de aplicaciones.',
+          mensaje_incorrecto:
+            'Revise nuevamente el contenido del componente formativo.',
         },
         {
           id: 11,
-          texto:
-            'El botón "<em>BOARD</em>" en EAGLE solo sirve para borrar componentes en el diseño.',
-          imagen: require('@/assets/actividad/imagen3.png'),
+          texto: 'La herencia permite:',
+          imagen: '@/assets/actividad/imagen1.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Verdadero',
-              esCorrecta: false,
+              texto: 'Reutilizar atributos y métodos de una clase existente.',
+              esCorrecta: true,
             },
             {
               id: 'b',
-              texto: 'Falso',
-              esCorrecta: true,
+              texto: 'Eliminar el uso de objetos.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: 'Reemplazar los constructores.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Evitar la programación orientada a objetos.',
+              esCorrecta: false,
             },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          mensaje_correcto:
+            '¡Excelente trabajo! Se evidencia un buen dominio de los conceptos fundamentales de la programación orientada a objetos y su aplicación en el desarrollo, implementación y depuración de aplicaciones.',
+          mensaje_incorrecto:
+            'Revise nuevamente el contenido del componente formativo.',
         },
         {
           id: 12,
           texto:
-            'La herramienta <em>Show</em> permite resaltar conexiones para facilitar la identificación de redes.',
-          imagen: require('@/assets/actividad/imagen4.png'),
+            'En Java, la herencia entre clases se implementa mediante la palabra reservada:',
+          imagen: '@/assets/actividad/imagen2.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Verdadero',
-              esCorrecta: true,
+              texto: 'implements',
+              esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'Falso',
+              texto: 'import',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: '<em>extends</em>',
+              esCorrecta: true,
+            },
+            {
+              id: 'd',
+              texto: 'package',
               esCorrecta: false,
             },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          mensaje_correcto:
+            '¡Excelente trabajo! Se evidencia un buen dominio de los conceptos fundamentales de la programación orientada a objetos y su aplicación en el desarrollo, implementación y depuración de aplicaciones.',
+          mensaje_incorrecto:
+            'Revise nuevamente el contenido del componente formativo.',
         },
         {
           id: 13,
-          texto:
-            'La función <em>Auto</em> se utiliza para enrutado automático en la ventana <em>Board</em>.',
-          imagen: require('@/assets/actividad/imagen1.png'),
+          texto: 'La sobrescritura de métodos consiste en:',
+          imagen: '@/assets/actividad/imagen3.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Verdadero',
-              esCorrecta: true,
+              texto: 'Declarar varios métodos con nombres diferentes.',
+              esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'Falso',
+              texto:
+                'Redefinir en una clase derivada un método heredado de la clase base.',
+              esCorrecta: true,
+            },
+            {
+              id: 'c',
+              texto: 'Crear varias clases con el mismo nombre.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Eliminar métodos heredados.',
               esCorrecta: false,
             },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          mensaje_correcto:
+            '¡Excelente trabajo! Se evidencia un buen dominio de los conceptos fundamentales de la programación orientada a objetos y su aplicación en el desarrollo, implementación y depuración de aplicaciones.',
+          mensaje_incorrecto:
+            'Revise nuevamente el contenido del componente formativo.',
         },
         {
           id: 14,
-          texto:
-            'La herramienta <em>Route</em> en la ventana <em>Board</em> ajusta automáticamente todas las pistas del diseño.',
-          imagen: require('@/assets/actividad/imagen2.png'),
+          texto: '¿Cuál es el propósito de una clase abstracta?',
+          imagen: '@/assets/actividad/imagen4.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Verdadero',
+              texto: 'Crear objetos directamente.',
               esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'Falso',
+              texto: 'Reemplazar todas las clases concretas.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: 'Evitar la herencia.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto:
+                'Servir como base para otras clases que implementan su comportamiento.',
               esCorrecta: true,
             },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          mensaje_correcto:
+            '¡Excelente trabajo! Se evidencia un buen dominio de los conceptos fundamentales de la programación orientada a objetos y su aplicación en el desarrollo, implementación y depuración de aplicaciones.',
+          mensaje_incorrecto:
+            'Revise nuevamente el contenido del componente formativo.',
         },
         {
           id: 15,
-          texto:
-            'Es recomendable organizar los componentes en bloques funcionales como transformación y filtrado en la ventana <em>Board</em>.',
-          imagen: require('@/assets/actividad/imagen3.png'),
+          texto: 'El polimorfismo permite que:',
+          imagen: '@/assets/actividad/imagen5.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Verdadero',
+              texto:
+                'Todos los objetos ejecuten exactamente el mismo comportamiento.',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto: 'Solo exista una clase en el programa.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto:
+                'Una misma referencia pueda representar diferentes objetos relacionados por herencia.',
+              esCorrecta: true,
+            },
+            {
+              id: 'd',
+              texto: 'Se eliminen los constructores.',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto:
+            '¡Excelente trabajo! Se evidencia un buen dominio de los conceptos fundamentales de la programación orientada a objetos y su aplicación en el desarrollo, implementación y depuración de aplicaciones.',
+          mensaje_incorrecto:
+            'Revise nuevamente el contenido del componente formativo.',
+        },
+        {
+          id: 16,
+          texto: 'La sobrecarga de métodos ocurre cuando:',
+          imagen: '@/assets/actividad/imagen6.png',
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto:
+                'Existen varios métodos con el mismo nombre y diferentes parámetros.',
               esCorrecta: true,
             },
             {
               id: 'b',
-              texto: 'Falso',
+              texto: 'Un método cambia su nombre.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: 'Se elimina un método heredado.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Dos clases tienen el mismo atributo.',
               esCorrecta: false,
             },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          mensaje_correcto:
+            '¡Excelente trabajo! Se evidencia un buen dominio de los conceptos fundamentales de la programación orientada a objetos y su aplicación en el desarrollo, implementación y depuración de aplicaciones.',
+          mensaje_incorrecto:
+            'Revise nuevamente el contenido del componente formativo.',
+        },
+        {
+          id: 17,
+          texto:
+            '¿Cuál es el objetivo principal de la depuración de programas?',
+          imagen: '@/assets/actividad/imagen7.png',
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'Crear diagramas UML.',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto:
+                'Identificar y corregir errores durante el desarrollo de la aplicación.',
+              esCorrecta: true,
+            },
+            {
+              id: 'c',
+              texto: 'Reemplazar el compilador.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Diseñar algoritmos.',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto:
+            '¡Excelente trabajo! Se evidencia un buen dominio de los conceptos fundamentales de la programación orientada a objetos y su aplicación en el desarrollo, implementación y depuración de aplicaciones.',
+          mensaje_incorrecto:
+            'Revise nuevamente el contenido del componente formativo.',
+        },
+        {
+          id: 18,
+          texto: 'Una falla de sintaxis se caracteriza porque:',
+          imagen: '@/assets/actividad/imagen8.png',
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto:
+                'Produce un resultado incorrecto, aunque el programa funcione.',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto: 'Solo aparece después de ejecutar el programa.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto:
+                'Incumple las reglas del lenguaje e impide la compilación o ejecución.',
+              esCorrecta: true,
+            },
+            {
+              id: 'd',
+              texto: 'Ocurre únicamente en programas orientados a objetos.',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto:
+            '¡Excelente trabajo! Se evidencia un buen dominio de los conceptos fundamentales de la programación orientada a objetos y su aplicación en el desarrollo, implementación y depuración de aplicaciones.',
+          mensaje_incorrecto:
+            'Revise nuevamente el contenido del componente formativo.',
+        },
+        {
+          id: 19,
+          texto: '¿Qué permiten verificar las pruebas de <em>software</em>?',
+          imagen: '@/assets/actividad/imagen9.png',
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'El tamaño del código fuente.',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto: 'El número de clases creadas.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: 'La velocidad del compilador.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto:
+                'Que la aplicación funcione de acuerdo con los resultados esperados.',
+              esCorrecta: true,
+            },
+          ],
+          mensaje_correcto:
+            '¡Excelente trabajo! Se evidencia un buen dominio de los conceptos fundamentales de la programación orientada a objetos y su aplicación en el desarrollo, implementación y depuración de aplicaciones.',
+          mensaje_incorrecto:
+            'Revise nuevamente el contenido del componente formativo.',
+        },
+        {
+          id: 20,
+          texto:
+            'Después de corregir un error en una aplicación, lo más recomendable es:',
+          imagen: '@/assets/actividad/imagen10.png',
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'Eliminar el algoritmo.',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto: 'Crear una nueva clase.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto:
+                'Ejecutar nuevamente las pruebas para verificar la corrección realizada.',
+              esCorrecta: true,
+            },
+            {
+              id: 'd',
+              texto: 'Cambiar el lenguaje de programación.',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto:
+            '¡Excelente trabajo! Se evidencia un buen dominio de los conceptos fundamentales de la programación orientada a objetos y su aplicación en el desarrollo, implementación y depuración de aplicaciones.',
+          mensaje_incorrecto:
+            'Revise nuevamente el contenido del componente formativo.',
         },
       ],
-      mensaje_final_aprobado: '¡Excelente! Ha superado la actividad.',
+      mensaje_final_aprobado:
+        'Ha superado la actividad y demuestra sólidos conocimientos sobre el componente formativo.',
       mensaje_final_reprobado:
-        'Le recomendamos volver a revisar el componente formativo e intentar nuevamente la actividad didáctica.',
+        'No ha superado la actividad. Le recomendamos volver a revisar el componente formativo e intentar nuevamente la actividad didáctica.',
     },
   }),
 }
