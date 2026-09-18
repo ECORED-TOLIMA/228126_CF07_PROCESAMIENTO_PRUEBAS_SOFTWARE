@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1021.498" height="425" viewBox="0 0 1021.498 425">
+  <defs>
+    <clipPath id="clip-path">
+      <path id="Trazado_1280142" data-name="Trazado 1280142" d="M15.85,0h988.632c8.754,0,15.85,6.773,15.85,15.129l-1.166,394.743c0,8.355-7.1,15.129-15.85,15.129H14.684c-8.754,0-15.85-6.773-15.85-15.129L0,15.129C0,6.773,7.1,0,15.85,0Z" transform="translate(284.668 1119)" fill="#dfefff"/>
+    </clipPath>
+  </defs>
+  <g id="Grupo_1213483" data-name="Grupo 1213483" transform="translate(-290 -6925)">
+    <g id="Enmascarar_grupo_1187795" data-name="Enmascarar grupo 1187795" transform="translate(6.498 5806)" clip-path="url(#clip-path)">
+      <rect id="Rectángulo_463343" data-name="Rectángulo 463343" width="1069" height="450.075" transform="translate(264.668 1108.044)" fill="#dfefff"/>
+    </g>
+    <g id="Grupo_1213477" data-name="Grupo 1213477">
+      <rect id="Rectángulo_463344" data-name="Rectángulo 463344" width="396" height="35" rx="12" transform="translate(601.711 6936)" fill="#ffde92"/>
+      <text id="Definir_casos_de_prueba" data-name="Definir casos de prueba" transform="translate(714.711 6959)" fill="#12263f" font-size="16" font-family="SegoeUI-Bold, Segoe UI" font-weight="700"><tspan x="0" y="0">Definir casos de prueba</tspan></text>
+      <path id="Trazado_1280143" data-name="Trazado 1280143" d="M6442.289-4729v267" transform="translate(-5642.078 11700)" fill="none" stroke="#707070" stroke-width="3"/>
+      <path id="Trazado_1280145" data-name="Trazado 1280145" d="M6442.289-4729v15.57" transform="translate(-5944.289 12014.666)" fill="none" stroke="#707070" stroke-width="3"/>
+      <path id="Trazado_1280146" data-name="Trazado 1280146" d="M6442.289-4729v15.57" transform="translate(-5340.289 12014.666)" fill="none" stroke="#707070" stroke-width="3"/>
+      <rect id="Rectángulo_463345" data-name="Rectángulo 463345" width="396.578" height="35" rx="12" transform="translate(601.711 6985.118)" fill="#d5aaff"/>
+      <rect id="Rectángulo_463346" data-name="Rectángulo 463346" width="396.578" height="35" rx="12" transform="translate(601.711 7036.171)" fill="#ffde92"/>
+      <rect id="Rectángulo_463347" data-name="Rectángulo 463347" width="396.578" height="35" rx="12" transform="translate(601.711 7087.224)" fill="#d5aaff"/>
+      <rect id="Rectángulo_463348" data-name="Rectángulo 463348" width="396.578" height="35" rx="12" transform="translate(601.711 7138.277)" fill="#ffde92"/>
+      <rect id="Rectángulo_463349" data-name="Rectángulo 463349" width="396.578" height="35" rx="12" transform="translate(601.711 7182.667)" fill="#d5aaff"/>
+      <rect id="Rectángulo_463350" data-name="Rectángulo 463350" width="208" height="35" rx="12" transform="translate(394 7250.667)" fill="#ffde92"/>
+      <rect id="Rectángulo_463352" data-name="Rectángulo 463352" width="208" height="35" rx="12" transform="translate(998 7250.667)" fill="#ffde92"/>
+      <rect id="Rectángulo_463351" data-name="Rectángulo 463351" width="208" height="35" rx="12" transform="translate(394 7298)" fill="#d5aaff"/>
+      <rect id="Rectángulo_463353" data-name="Rectángulo 463353" width="208" height="35" rx="12" transform="translate(998 7298)" fill="#d5aaff"/>
+      <text id="Ejecutar_el_programa" data-name="Ejecutar el programa" transform="translate(725.711 7007.08)" fill="#12263f" font-size="16" font-family="SegoeUI-Bold, Segoe UI" font-weight="700"><tspan x="0" y="0">Ejecutar el programa</tspan></text>
+      <text id="Identificar_errores" data-name="Identificar errores" transform="translate(735.711 7058.728)" fill="#12263f" font-size="16" font-family="SegoeUI-Bold, Segoe UI" font-weight="700"><tspan x="0" y="0">Identificar errores</tspan></text>
+      <text id="Corregir_el_código" data-name="Corregir el código" transform="translate(735.711 7110.376)" fill="#12263f" font-size="16" font-family="SegoeUI-Bold, Segoe UI" font-weight="700"><tspan x="0" y="0">Corregir el código</tspan></text>
+      <text id="Verificar_la_solución" data-name="Verificar la solución" transform="translate(728.711 7162.024)" fill="#12263f" font-size="16" font-family="SegoeUI-Bold, Segoe UI" font-weight="700"><tspan x="0" y="0">Verificar la solución</tspan></text>
+      <text id="_El_programa_funciona_correctamente_" data-name="¿El programa funciona correctamente?" transform="translate(660.711 7205.667)" fill="#12263f" font-size="16" font-family="SegoeUI-Bold, Segoe UI" font-weight="700"><tspan x="0" y="0">¿El programa funciona correctamente?</tspan></text>
+      <text id="Sí" transform="translate(490.5 7273.667)" fill="#12263f" font-size="16" font-family="SegoeUI-Bold, Segoe UI" font-weight="700"><tspan x="0" y="0">Sí</tspan></text>
+      <text id="No" transform="translate(1094.5 7273.667)" fill="#12263f" font-size="16" font-family="SegoeUI-Bold, Segoe UI" font-weight="700"><tspan x="0" y="0">No</tspan></text>
+      <text id="Programa_validado" data-name="Programa validado" transform="translate(433.5 7321)" fill="#12263f" font-size="16" font-family="SegoeUI-Bold, Segoe UI" font-weight="700"><tspan x="0" y="0">Programa validado</tspan></text>
+      <text id="Corregir_el_código-2" data-name="Corregir el código" transform="translate(1037.5 7321)" fill="#12263f" font-size="16" font-family="SegoeUI-Bold, Segoe UI" font-weight="700"><tspan x="0" y="0">Corregir el código</tspan></text>
+      <path id="Trazado_1280144" data-name="Trazado 1280144" d="M6754.289-4449.333V-4462h-604v12.667" transform="translate(-5652.289 11700)" fill="none" stroke="#707070" stroke-width="3"/>
+    </g>
+  </g>
+</svg>
