@@ -17,74 +17,80 @@
       #t_1_1.titulo-segundo.color-acento-contenido(data-aos="flip-up")
         h2 1.1 Características de la programación orientada a objetos
       p.mb-4(data-aos="fade-down") La programación orientada a objetos se fundamenta en cuatro principios que orientan el diseño y desarrollo de aplicaciones organizadas, reutilizables y fáciles de mantener. Estos principios permiten representar entidades del mundo real mediante clases y objetos, favoreciendo la modularidad, la escalabilidad y la calidad del <em>software</em>.
-      AcordionA.mb-0(tipo="a" clase-tarjeta="tarjeta tarjeta--C15" data-aos="zoom-in")
-        .row.justify-content-center(titulo="a) Abstracción")
-          .col-12.col-lg-10.order-lg-1.order-2
-            ul.lista-ul.mb-0
-              li.mb-4
-                i.lista-ul__vineta
-                p.mb-0 <b>Definición</b>: es el proceso mediante el cual se identifican las características esenciales de un objeto, omitiendo aquellos detalles que no son relevantes para el problema que se desea resolver. De esta manera, el desarrollador se concentra en las funcionalidades que ofrece un objeto más que en su implementación interna.
-              li.mb-4
-                i.lista-ul__vineta
-                p.mb-0 <b>Aplicación en el desarrollo de <em>software</em></b>: la abstracción facilita el uso de componentes, bibliotecas y servicios sin necesidad de conocer todos los detalles de su funcionamiento interno, lo que simplifica el desarrollo y favorece la reutilización del <em>software</em>.
-              li.mb-4
-                i.lista-ul__vineta
-                p.mb-0 <b>Ejemplo</b>: al conducir un automóvil, el conductor utiliza el volante, los pedales y la palanca de cambios para operarlo, sin necesidad de conocer el funcionamiento interno del motor.
-          .col-12.col-lg-10.order-lg-2.order-1
-            figure
-              img(src='@/assets/curso/temas/t1/img02.jpg', alt='Imagen decorativa')
-        .row.justify-content-center(titulo="b) Encapsulamiento")
-          .col-12.col-lg-10.order-lg-1.order-2
-            ul.lista-ul.mb-0
-              li.mb-4
-                i.lista-ul__vineta
-                p.mb-0 <b>Definición</b>: consiste en agrupar los datos (atributos) y las operaciones (métodos) que actúan sobre ellos dentro de una misma clase, controlando el acceso a la información mediante mecanismos de visibilidad. Esto protege la integridad de los datos y evita modificaciones no autorizadas.
-              li.mb-4
-                i.lista-ul__vineta
-                p.mb-0 <b>Aplicación en el desarrollo de <em>software</em></b>: el encapsulamiento contribuye a mantener la consistencia de la información, reducir errores y facilitar el mantenimiento de las aplicaciones.
-              li.mb-4
-                i.lista-ul__vineta
-                p.mb-0 <b>Ejemplo</b>: una cápsula farmacéutica protege su contenido y permite acceder a él únicamente de la forma prevista, evitando alteraciones externas.
-          .col-12.col-lg-10.order-lg-2.order-1
-            figure
-              img(src='@/assets/curso/temas/t1/img03.jpg', alt='Imagen decorativa')
-        .row.justify-content-center(titulo="c) Herencia")
-          .col-12.col-lg-10.order-lg-1.order-2
-            ul.lista-ul.mb-0
-              li.mb-4
-                i.lista-ul__vineta
-                p.mb-0 <b>Definición</b>: es el mecanismo mediante el cual una clase puede adquirir atributos y métodos de otra clase, permitiendo reutilizar funcionalidades comunes y especializar comportamientos cuando sea necesario.
-              li.mb-4
-                i.lista-ul__vineta
-                p.mb-0 <b>Aplicación en el desarrollo de <em>software</em></b>: la herencia favorece la reutilización del código, disminuye la duplicidad de funcionalidades y facilita la creación de jerarquías entre clases relacionadas.
-              li.mb-4
-                i.lista-ul__vineta
-                p.mb-0 <b>Ejemplo</b>: un teléfono inteligente conserva funciones básicas de comunicación presentes en modelos anteriores, incorporando nuevas características como acceso a internet o aplicaciones móviles.
-          .col-12.col-lg-10.order-lg-2.order-1
-            figure
-              img(src='@/assets/curso/temas/t1/img04.jpg', alt='Imagen decorativa')
-        .row.justify-content-center(titulo="d) Polimorfismo")
-          .col-12.col-lg-10.order-lg-1.order-2
-            ul.lista-ul.mb-0
-              li.mb-4
-                i.lista-ul__vineta
-                p.mb-0 <b>Definición</b>: es la capacidad de que una misma operación pueda ejecutarse de manera diferente según el tipo de objeto que la implemente. Esto permite utilizar una interfaz común para trabajar con objetos de distintas clases.
-              li.mb-4
-                i.lista-ul__vineta
-                p.mb-0 <b>Aplicación en el desarrollo de <em>software</em></b>: el polimorfismo incrementa la flexibilidad del código, facilita su extensión y favorece el desarrollo de aplicaciones adaptables a diferentes escenarios.
-              li.mb-4
-                i.lista-ul__vineta
-                p.mb-0 <b>Ejemplo</b>: al seleccionar la opción Imprimir en una aplicación, el mismo comando puede enviar la información a una impresora láser, una impresora de tinta o un archivo PDF, dependiendo del dispositivo o destino configurado.
-          .col-12.col-lg-10.order-lg-2.order-1
-            figure
-              img(src='@/assets/curso/temas/t1/img05.jpg', alt='Imagen decorativa')
+      .row.justify-content-center.mt-4
+        .col-lg-12
+          .row.justify-content-center 
+            AcordionA(tipo="b" clase-tarjeta="tarjeta tarjeta--C15").color-primario
+              //-1ra pestaña
+              .row.justify-content-center(titulo="a) Abstracción")
+                .col-12.col-lg-10.order-lg-1.order-2
+                  ul.lista-ul.mb-0
+                    li.mb-4
+                      i.lista-ul__vineta
+                      p.mb-0 <b>Definición</b>: es el proceso mediante el cual se identifican las características esenciales de un objeto, omitiendo aquellos detalles que no son relevantes para el problema que se desea resolver. De esta manera, el desarrollador se concentra en las funcionalidades que ofrece un objeto más que en su implementación interna.
+                    li.mb-4
+                      i.lista-ul__vineta
+                      p.mb-0 <b>Aplicación en el desarrollo de <em>software</em></b>: la abstracción facilita el uso de componentes, bibliotecas y servicios sin necesidad de conocer todos los detalles de su funcionamiento interno, lo que simplifica el desarrollo y favorece la reutilización del <em>software</em>.
+                    li.mb-4
+                      i.lista-ul__vineta
+                      p.mb-0 <b>Ejemplo</b>: al conducir un automóvil, el conductor utiliza el volante, los pedales y la palanca de cambios para operarlo, sin necesidad de conocer el funcionamiento interno del motor.
+                .col-12.col-lg-10.order-lg-2.order-1
+                  figure
+                    img(src='@/assets/curso/temas/t1/img02.jpg')
+              .row.justify-content-center(titulo="b) Encapsulamiento")
+                .col-12.col-lg-10.order-lg-1.order-2
+                  ul.lista-ul.mb-0
+                    li.mb-4
+                      i.lista-ul__vineta
+                      p.mb-0 <b>Definición</b>: consiste en agrupar los datos (atributos) y las operaciones (métodos) que actúan sobre ellos dentro de una misma clase, controlando el acceso a la información mediante mecanismos de visibilidad. Esto protege la integridad de los datos y evita modificaciones no autorizadas.
+                    li.mb-4
+                      i.lista-ul__vineta
+                      p.mb-0 <b>Aplicación en el desarrollo de <em>software</em></b>: el encapsulamiento contribuye a mantener la consistencia de la información, reducir errores y facilitar el mantenimiento de las aplicaciones.
+                    li.mb-4
+                      i.lista-ul__vineta
+                      p.mb-0 <b>Ejemplo</b>: una cápsula farmacéutica protege su contenido y permite acceder a él únicamente de la forma prevista, evitando alteraciones externas.
+                .col-12.col-lg-10.order-lg-2.order-1
+                  figure
+                    img(src='@/assets/curso/temas/t1/img03.jpg')
+              .row.justify-content-center(titulo="c) Herencia")
+                .col-12.col-lg-10.order-lg-1.order-2
+                  ul.lista-ul.mb-0
+                    li.mb-4
+                      i.lista-ul__vineta
+                      p.mb-0 <b>Definición</b>: es el mecanismo mediante el cual una clase puede adquirir atributos y métodos de otra clase, permitiendo reutilizar funcionalidades comunes y especializar comportamientos cuando sea necesario.
+                    li.mb-4
+                      i.lista-ul__vineta
+                      p.mb-0 <b>Aplicación en el desarrollo de <em>software</em></b>: la herencia favorece la reutilización del código, disminuye la duplicidad de funcionalidades y facilita la creación de jerarquías entre clases relacionadas.
+                    li.mb-4
+                      i.lista-ul__vineta
+                      p.mb-0 <b>Ejemplo</b>: un teléfono inteligente conserva funciones básicas de comunicación presentes en modelos anteriores, incorporando nuevas características como acceso a internet o aplicaciones móviles.
+                .col-12.col-lg-10.order-lg-2.order-1
+                  figure
+                    img(src='@/assets/curso/temas/t1/img04.jpg')
+              .row.justify-content-center(titulo="d) Polimorfismo")
+                .col-12.col-lg-10.order-lg-1.order-2
+                  ul.lista-ul.mb-0
+                    li.mb-4
+                      i.lista-ul__vineta
+                      p.mb-0 <b>Definición</b>: es la capacidad de que una misma operación pueda ejecutarse de manera diferente según el tipo de objeto que la implemente. Esto permite utilizar una interfaz común para trabajar con objetos de distintas clases.
+                    li.mb-4
+                      i.lista-ul__vineta
+                      p.mb-0 <b>Aplicación en el desarrollo de <em>software</em></b>: el polimorfismo incrementa la flexibilidad del código, facilita su extensión y favorece el desarrollo de aplicaciones adaptables a diferentes escenarios.
+                    li.mb-4
+                      i.lista-ul__vineta
+                      p.mb-0 <b>Ejemplo</b>: al seleccionar la opción Imprimir en una aplicación, el mismo comando puede enviar la información a una impresora láser, una impresora de tinta o un archivo PDF, dependiendo del dispositivo o destino configurado.
+                .col-12.col-lg-10.order-lg-2.order-1
+                  figure
+                    img(src='@/assets/curso/temas/t1/img05.jpg')
+
+        
       separador
       #t_1_2.titulo-segundo.color-acento-contenido(data-aos="flip-up")
         h2 1.2 Clases y objetos
       .row.justify-content-center.mb-4
         .col.col-lg-4.col-8.col-md-6.order-lg-1.order-1.mb-lg-0.mb-3
           figure
-            img(src='@/assets/curso/temas/t1/img06.jpg', alt='Imagen decorativa')
+            img(src='@/assets/curso/temas/t1/img06.jpg')
         .col.col-lg-8.col-12.order-lg-2.order-2
           .cajon.cajon.C08.color-primario.p-4.mb-3
             p.mb-0(data-aos="fade-down") Las clases y los objetos constituyen los elementos fundamentales de la programación orientada a objetos. Aunque están estrechamente relacionados, representan conceptos diferentes. Una clase define la estructura y el comportamiento que compartirán un conjunto de objetos mediante atributos y métodos, mientras que un objeto corresponde a una instancia creada a partir de esa clase durante la ejecución del programa.
@@ -105,7 +111,7 @@
       .row.justify-content-center.align-items-center.mb-4
         .col.col-lg-2.col-8.col-md-6.order-lg-1.order-1.mb-lg-0.mb-3
           figure
-            img(src='@/assets/curso/temas/t1/img09.svg', alt='Imagen decorativa')
+            img(src='@/assets/curso/temas/t1/img09.svg')
         .col.col-lg-8.col-12.order-lg-2.order-2
           p.mb-0(data-aos="fade-down") En la figura 1 se evidencia que, durante la fase de diseño, el desarrollador define la clase mediante el código fuente. Posteriormente, cuando la aplicación se ejecuta, el lenguaje de programación crea los objetos mediante el proceso de instanciación, asignando la memoria necesaria para que puedan almacenar información y ejecutar las operaciones definidas en la clase.
       .row.justify-content-center.mb-4
@@ -154,7 +160,7 @@
       .row.justify-content-center.align-items-center.mb-0
         .col.col-lg-1.col-6.col-md-6.order-lg-1.order-1.mb-lg-0.mb-3
           figure
-            img(src='@/assets/curso/temas/t1/img10.svg', alt='Imagen decorativa')
+            img(src='@/assets/curso/temas/t1/img10.svg')
         .col.col-lg-9.col-12.order-lg-2.order-2
           .cajon.cajon.C03.px-4.py-3
             p.mb-0(data-aos="fade-down") Esta capacidad de crear múltiples objetos a partir de una única definición favorece la reutilización del código, facilita el mantenimiento del <em>software</em> y permite desarrollar aplicaciones más organizadas, escalables y fáciles de evolucionar.
@@ -167,13 +173,13 @@
           .d-flex.align-items-center(data-aos="flip-down")
             .flex-shrink-0(style="z-index: 2;")
               figure.mb-0
-                img(src='@/assets/curso/temas/ico.svg', style="width: 55px;", alt='').m-auto
+                img(src='@/assets/curso/temas/ico.svg', style="width: 55px;").m-auto
             .titulo01.p-2(style="z-index: 1; margin-left: -20px; padding-left: 30px !important;")
               h3.mb-0.me-3 Atributos
       .row.justify-content-center.mb-4
         .col.col-lg-4.col-8.col-md-6.order-lg-2.order-1.mb-lg-0.mb-3
           figure
-            img(src='@/assets/curso/temas/t1/img11.jpg', alt='Imagen decorativa')
+            img(src='@/assets/curso/temas/t1/img11.jpg')
         .col.col-lg-8.col-12.order-lg-1.order-2
           p.mb-4(data-aos="fade-down") Los atributos corresponden a las propiedades o características que describen un objeto. Cada atributo almacena información que identifica el estado del objeto en un momento determinado. Estos pueden representar diferentes tipos de datos, como texto, números, fechas o valores lógicos.
           .cajon.cajon.C02.color-secundario.p-4.mb-4
@@ -184,13 +190,13 @@
           .d-flex.align-items-center(data-aos="flip-down")
             .flex-shrink-0(style="z-index: 2;")
               figure.mb-0
-                img(src='@/assets/curso/temas/ico.svg', style="width: 55px;", alt='').m-auto
+                img(src='@/assets/curso/temas/ico.svg', style="width: 55px;").m-auto
             .titulo01.p-2(style="z-index: 1; margin-left: -20px; padding-left: 30px !important;")
               h3.mb-0.me-3 Métodos
       .row.justify-content-center.mb-4
         .col.col-lg-4.col-8.col-md-6.order-lg-1.order-1.mb-lg-0.mb-3
           figure
-            img(src='@/assets/curso/temas/t1/img12.jpg', alt='Imagen decorativa')
+            img(src='@/assets/curso/temas/t1/img12.jpg')
         .col.col-lg-8.col-12.order-lg-2.order-2
           p.mb-3(data-aos="fade-down") Los métodos representan las acciones o comportamientos que puede ejecutar un objeto. Mediante ellos es posible procesar información, modificar el estado de un objeto o interactuar con otros objetos dentro del sistema.
           .cajon.cajon.C02.color-secundario.p-4.mb-3
@@ -255,7 +261,7 @@
         .col-12.col-lg-10(data-aos="fade-right")
           .tarjeta-segmentacion
             .tarjeta-segmentacion__wrap-img
-              img(src='@/assets/curso/temas/t1/img17.jpg', alt='Imagen decorativa')
+              img(src='@/assets/curso/temas/t1/img17.jpg')
             .tarjeta-segmentacion__wrap-text
               p.mb-3 Supóngase una aplicación para la gestión de aprendices del SENA.
               p.mb-1 <b>Entrada:</b> el usuario registra el nombre, el número de documento y el programa de formación.
@@ -264,7 +270,7 @@
       .row.justify-content-center.align-items-center.mb-4
         .col.col-lg-1.col-6.col-md-6.order-lg-1.order-1.mb-lg-0.mb-3
           figure
-            img(src='@/assets/curso/temas/t1/img18.svg', alt='Imagen decorativa')
+            img(src='@/assets/curso/temas/t1/img18.svg')
         .col.col-lg-9.col-12.order-lg-2.order-2
           .cajon.cajon.C03.px-4.py-3
             p.mb-0(data-aos="fade-down") Este flujo de trabajo demuestra cómo los objetos reciben información, ejecutan operaciones mediante sus métodos y generan resultados como parte del funcionamiento normal de una aplicación orientada a objetos.
@@ -305,28 +311,28 @@
           .col-md-10.col-12
             .tarjeta.tarjeta--C05.p-4
               figure.mb-3
-                img(src='@/assets/curso/temas/t1/img23.png', alt='Imagen decorativa')
+                img(src='@/assets/curso/temas/t1/img23.png')
               h4 Abstracción
               p.mb-0 Permite representar únicamente las características esenciales de un objeto, ocultando los detalles innecesarios para el problema que se desea resolver.
         .row.justify-content-center.align-items-center.mb-5
           .col-md-10.col-12
             .tarjeta.tarjeta--C05.p-4
               figure.mb-3
-                img(src='@/assets/curso/temas/t1/img24.png', alt='Imagen decorativa')
+                img(src='@/assets/curso/temas/t1/img24.png')
               h4 Encapsulamiento
               p.mb-0 Protege la información contenida en los objetos mediante el control del acceso a sus atributos y métodos, favoreciendo la integridad de los datos.
         .row.justify-content-center.align-items-center.mb-5
           .col-md-10.col-12
             .tarjeta.tarjeta--C05.p-4
               figure.mb-3
-                img(src='@/assets/curso/temas/t1/img25.png', alt='Imagen decorativa')
+                img(src='@/assets/curso/temas/t1/img25.png')
               h4 Herencia
               p.mb-0 Posibilita crear nuevas clases a partir de otras existentes, reutilizando atributos y métodos comunes para facilitar el desarrollo y mantenimiento del <em>software</em>.
         .row.justify-content-center.align-items-center.mb-5
           .col-md-10.col-12
             .tarjeta.tarjeta--C05.p-4
               figure.mb-3
-                img(src='@/assets/curso/temas/t1/img26.png', alt='Imagen decorativa')
+                img(src='@/assets/curso/temas/t1/img26.png')
               h4 Polimorfismo
               p.mb-0 Permite que una misma operación tenga diferentes comportamientos según el objeto que la implemente, proporcionando mayor flexibilidad y extensibilidad a las aplicaciones.
         p.mb-0(data-aos="fade-down") La aplicación conjunta de estos principios favorece el desarrollo de <em>software</em> modular, facilita la reutilización del código y contribuye a construir aplicaciones escalables, mantenibles y adaptables a diferentes necesidades.
@@ -348,28 +354,28 @@
               .row.justify-content-center.mb-3
                 .col-lg-5.col-4
                   figure(data-aos="fade-up")
-                    img(src='@/assets/curso/temas/t1/img28.svg', alt='Imagen decorativa')(style="width: 100%")
+                    img(src='@/assets/curso/temas/t1/img28.svg')(style="width: 100%")
               h4.text-center Invocación de métodos
               p.mb-0(data-aos="fade-down") Un objeto solicita a otro la ejecución de una operación determinada.
             .col-xl.col-lg-6.tarjeta.tarjeta--C13.p-5
               .row.justify-content-center.mb-3
                 .col-lg-5.col-4
                   figure(data-aos="fade-up")
-                    img(src='@/assets/curso/temas/t1/img29.svg', alt='Imagen decorativa')(style="width: 100%")
+                    img(src='@/assets/curso/temas/t1/img29.svg')(style="width: 100%")
               h4.text-center Intercambio de información
               p.mb-0(data-aos="fade-down") Los objetos envían o reciben datos necesarios para realizar un proceso.
             .col-xl.col-lg-6.tarjeta.tarjeta--C14.p-5
               .row.justify-content-center.mb-3
                 .col-lg-5.col-4
                   figure(data-aos="fade-up")
-                    img(src='@/assets/curso/temas/t1/img30.svg', alt='Imagen decorativa')(style="width: 100%")
+                    img(src='@/assets/curso/temas/t1/img30.svg')(style="width: 100%")
               h4.text-center Paso de parámetros
               p.mb-0(data-aos="fade-down") Un método recibe información suministrada por otro objeto para ejecutar una tarea específica.
             .col-xl.col-lg-6.tarjeta.tarjeta--C17.p-5
               .row.justify-content-center.mb-3
                 .col-lg-5.col-4
                   figure(data-aos="fade-up")
-                    img(src='@/assets/curso/temas/t1/img31.svg', alt='Imagen decorativa')(style="width: 100%")
+                    img(src='@/assets/curso/temas/t1/img31.svg')(style="width: 100%")
               h4.text-center Retorno de resultados
               p.mb-0(data-aos="fade-down") Una vez finalizado el procesamiento, el método puede devolver un valor o confirmar la ejecución de la operación.
       .row.justify-content-center.mb-4
@@ -378,7 +384,7 @@
             .row.align-items-center
               .col-lg-auto.d-none.d-lg-block
                 figure
-                  img(src='@/assets/curso/temas/t1/img32.svg', alt='Imagen decorativa')
+                  img(src='@/assets/curso/temas/t1/img32.svg')
               .col-lg-10.col-12
                 p.mb-0 Como ejemplo, en una aplicación de gestión académica, el objeto <b>Aprendiz</b> puede solicitar al objeto <b>Curso</b> la información correspondiente a un programa de formación. Posteriormente, el objeto <b>Curso</b> consulta los datos disponibles y devuelve la información solicitada, permitiendo que el objeto <b>Aprendiz</b> continúe con el proceso de matrícula o consulta.
       p.mb-4(data-aos="fade-down") A continuación, se presenta un ejemplo simplificado de la interacción entre objetos dentro de una aplicación orientada a objetos.

@@ -9,12 +9,12 @@
     .row.justify-content-center.mb-4
       .col.col-lg-5.col-8.col-md-6.order-lg-1.order-1.mb-lg-0.mb-3
         figure
-          img(src='@/assets/curso/temas/t3/img01.jpg', alt='Imagen decorativa')
+          img(src='@/assets/curso/temas/t3/img01.jpg')
       .col.col-lg-7.col-12.order-lg-2.order-2
         .row.mb-4
           .col-lg-auto.d-none.d-lg-block
             figure
-              img(src='@/assets/curso/temas/t3/img02.svg', alt='Imagen decorativa')
+              img(src='@/assets/curso/temas/t3/img02.svg')
           .col-lg-10.col-12
             p.mb-0 La implementación de clases constituye una etapa fundamental en el desarrollo de aplicaciones orientadas a objetos, ya que permite transformar el diseño conceptual del <em>software</em> en estructuras programables que representan los diferentes elementos del sistema. Una clase define las características y comportamientos que comparten los objetos, favoreciendo la organización, reutilización y mantenimiento del código.
         .cajon.cajon.C08.color-primario.px-4.py-3.mb-0
@@ -50,7 +50,7 @@
               p.mb-0 Controlan la visibilidad de los atributos y métodos dentro del programa.
       .col-lg-4.col-sm-4.col-5.order-lg-1.order-1.mb-lg-0.mb-4.d-none.d-lg-block
         figure
-          img(src='@/assets/curso/temas/t3/img04.svg', alt='Imagen decorativa')
+          img(src='@/assets/curso/temas/t3/img04.svg')
     .row.justify-content-center.mb-4(data-aos="flip-up")
       .col-lg-10.col-12
         .titulo-sexto.color-acento-contenido
@@ -88,9 +88,9 @@
     .row.justify-content-center.align-items-center.mb-4
       .col.col-lg-auto.col-6.col-md-6.order-lg-1.order-1.mb-lg-0.mb-3
         figure
-          img(src='@/assets/curso/temas/t3/img07.svg', alt='Imagen decorativa')
+          img(src='@/assets/curso/temas/t3/img07.svg')
       .col.col-lg-9.col-12.order-lg-2.order-2
-        .cajon.cajon.C03.p-3
+        .tarjeta--C12.p-3
           p.mb-0(data-aos="fade-down") En este ejemplo, la clase Aprendiz define dos atributos (nombre y programa), un constructor para inicializar los objetos y un método encargado de mostrar la información almacenada.
     p.mb-0(data-aos="fade-down") La implementación organizada de las clases favorece el desarrollo de aplicaciones más estructuradas, facilita el mantenimiento del código y promueve la reutilización de componentes dentro de un proyecto de <em>software</em>.
     separador
@@ -99,7 +99,7 @@
     .row.justify-content-center.mb-4
       .col.col-lg-5.col-8.col-md-6.order-lg-2.order-1.mb-lg-0.mb-3
         figure
-          img(src='@/assets/curso/temas/t3/img08.svg', alt='Imagen decorativa')
+          img(src='@/assets/curso/temas/t3/img08.svg')
       .col.col-lg-7.col-12.order-lg-1.order-2
         p.mb-4(data-aos="fade-down") Como se presentó en los diagramas de clases de UML, la visibilidad de los atributos y métodos se representa mediante símbolos. Durante la implementación, estos símbolos se traducen en especificadores de acceso propios del lenguaje de programación utilizado, los cuales controlan el acceso a los diferentes elementos de la clase.
         .cajon.cajon.C08.color-primario.p-4.mb-4
@@ -168,7 +168,7 @@
     .row.justify-content-center.mb-4
       .col.col-lg-5.col-8.col-md-6.order-lg-1.order-1.mb-lg-0.mb-3
         figure
-          img(src='@/assets/curso/temas/t3/img09.jpg', alt='Imagen decorativa')
+          img(src='@/assets/curso/temas/t3/img09.jpg')
       .col.col-lg-7.col-12.order-lg-2.order-2
         p.mb-4(data-aos="fade-down") Los constructores son métodos especiales que se ejecutan automáticamente al crear un objeto de una clase. Su función principal es inicializar los atributos del objeto, asignándoles valores iniciales y preparando la instancia para su utilización dentro de la aplicación.
         .cajon.cajon.C08.color-primario.p-4.mb-0
@@ -196,7 +196,7 @@
     .row.justify-content-center.align-items-center.mb-4
       .col.col-lg-auto.col-6.col-md-6.order-lg-1.order-1.mb-lg-0.mb-3
         figure
-          img(src='@/assets/curso/temas/t3/img10.svg', alt='Imagen decorativa')
+          img(src='@/assets/curso/temas/t3/img10.svg')
       .col.col-lg-9.col-12.order-lg-2.order-2
         .cajon.cajon.C03.px-3.py-2
           p.mb-0(data-aos="fade-down") En el ejemplo anterior, el constructor <b>Aprendiz()</b> recibe los valores correspondientes al nombre y al programa de formación, asignándolos a los atributos del objeto durante su creación. De esta manera, cada objeto inicia su ciclo de vida con la información necesaria para su funcionamiento.

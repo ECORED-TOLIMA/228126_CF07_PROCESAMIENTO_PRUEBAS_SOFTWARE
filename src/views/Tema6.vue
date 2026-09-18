@@ -9,12 +9,12 @@
     .row.justify-content-center.mb-4
       .col.col-lg-5.col-8.col-md-6.order-lg-1.order-1.mb-lg-0.mb-3
         figure
-          img(src='@/assets/curso/temas/t6/img01.jpg', alt='Imagen decorativa')
+          img(src='@/assets/curso/temas/t6/img01.jpg')
       .col.col-lg-7.col-12.order-lg-2.order-2
         .row.mb-4
           .col-lg-auto.d-none.d-lg-block
             figure
-              img(src='@/assets/curso/temas/t6/img02.svg', alt='Imagen decorativa')
+              img(src='@/assets/curso/temas/t6/img02.svg')
           .col-lg-10.col-12
             p.mb-0 El desarrollo de aplicaciones requiere un proceso organizado que inicia con el análisis del problema y el diseño de una solución lógica antes de su implementación en un lenguaje de programación. Una planificación adecuada de los algoritmos facilita la construcción de programas más claros, eficientes y acordes con los requerimientos establecidos.
         .cajon.cajon.C08.color-primario.px-4.py-3.mb-0
@@ -74,7 +74,7 @@
     .row.justify-content-center.mb-4
       .col.col-lg-5.col-8.col-md-6.order-lg-2.order-1.mb-lg-0.mb-3
         figure
-          img(src='@/assets/curso/temas/t6/img07.jpg', alt='Imagen decorativa')
+          img(src='@/assets/curso/temas/t6/img07.jpg')
       .col.col-lg-7.col-12.order-lg-1.order-2
         p.mb-4 La depuración de programas es el proceso mediante el cual se identifican, analizan y corrigen los errores presentes en una aplicación durante su desarrollo. Esta actividad permite verificar que el programa funcione de acuerdo con los requisitos establecidos y produzca los resultados esperados antes de su implementación o puesta en funcionamiento.
         .cajon.cajon.C08.color-primario.px-4.py-3.mb-0
@@ -106,7 +106,7 @@
               p.mb-0 Aplicar las correcciones necesarias y comprobar nuevamente el funcionamiento de la aplicación.
       .col-lg-4.col-8.col-md-6.order-lg-1.order-1.mb-lg-0.mb-4
         figure
-          img(src='@/assets/curso/temas/t6/img06.svg', alt='Imagen decorativa')
+          img(src='@/assets/curso/temas/t6/img06.svg')
     p.mb-4(data-aos="fade-down") Las etapas generales del proceso de depuración de un programa son:
     .row.justify-content-center.mb-4(data-aos="flip-up")
       .col-lg-10.col-12
@@ -127,7 +127,7 @@
     .row.justify-content-center.mb-4
       .col.col-lg-5.col-8.col-md-6.order-lg-1.order-1.mb-lg-0.mb-3
         figure
-          img(src='@/assets/curso/temas/t6/img10.jpg', alt='Imagen decorativa')
+          img(src='@/assets/curso/temas/t6/img10.jpg')
       .col.col-lg-7.col-12.order-lg-2.order-2
         p.mb-4 Durante el desarrollo de una aplicación es frecuente encontrar errores que afectan su funcionamiento. Estos errores pueden impedir que el programa se ejecute o provocar resultados diferentes a los esperados. Identificar el tipo de falla facilita el proceso de depuración y permite aplicar la corrección más adecuada.
         .cajon.cajon.C08.color-primario.px-4.py-3.mb-0
@@ -172,7 +172,7 @@
     .row.justify-content-center.align-items-center.mb-4
       .col.col-lg-auto.col-6.col-md-6.order-lg-1.order-1.mb-lg-0.mb-3
         figure
-          img(src='@/assets/curso/temas/t6/img11.svg', alt='Imagen decorativa')
+          img(src='@/assets/curso/temas/t6/img11.svg')
       .col.col-lg-9.col-12.order-lg-2.order-2
         .cajon.cajon.C03.p-3
           p.mb-0(data-aos="fade-down") En este ejemplo, la instrucción que declara la variable edad no finaliza con el punto y coma (;), por lo que el compilador genera un error de sintaxis y el programa no puede ejecutarse.
@@ -198,9 +198,9 @@
     .row.justify-content-center.align-items-center.mb-4
       .col.col-lg-auto.col-6.col-md-6.order-lg-1.order-1.mb-lg-0.mb-3
         figure
-          img(src='@/assets/curso/temas/t6/img12.svg', alt='Imagen decorativa')
+          img(src='@/assets/curso/temas/t6/img12.svg')
       .col.col-lg-9.col-12.order-lg-2.order-2
-        .cajon.cajon.C03.px-4.py-2
+        .cajon.cajon.C08.px-4.py-2
           p.mb-0(data-aos="fade-down") En este caso, el programa se ejecuta correctamente desde el punto de vista de la sintaxis; sin embargo, la condición utilizada en la estructura <b>if</b> es incorrecta, por lo que el resultado obtenido no corresponde con la edad evaluada. Este tipo de situación corresponde a una falla de lógica.
     p.mb-0(data-aos="fade-down") Reconocer la diferencia entre las fallas de sintaxis y las fallas de lógica permite optimizar el proceso de depuración, facilita la identificación de los errores y contribuye al desarrollo de aplicaciones más confiables y de mejor calidad.
     separador
@@ -208,11 +208,11 @@
       h2 6.4 Pruebas y corrección de errores
     .row.justify-content-center.align-items-stretch.mb-4.g-0
       .col-lg-6.col-12.order-lg-1.order-2
-        .cajon.C08.p-4.h-100.w-100
+        .cajon.C09.p-4.h-100.w-100
           p(data-aos="fade-down") Las pruebas constituyen una actividad fundamental durante el desarrollo de <em>software</em>, ya que permiten comprobar que una aplicación cumple con los requisitos establecidos y produce los resultados esperados. Mediante la ejecución de diferentes casos de prueba es posible identificar errores que no fueron detectados durante la implementación y verificar el comportamiento del programa en distintas situaciones.
       .col-lg-6.col-8.col-md-6.order-lg-2.order-1.mb-lg-0.mb-4
         figure
-          img(src='@/assets/curso/temas/t6/img13.jpg', alt='Imagen decorativa')
+          img(src='@/assets/curso/temas/t6/img13.jpg')
     p(data-aos="fade-down") Una vez identificado un error, se procede a analizar su causa y realizar las modificaciones necesarias en el código fuente. Posteriormente, el programa debe ejecutarse nuevamente para comprobar que la corrección implementada solucionó el problema sin afectar otras funcionalidades de la aplicación. Este proceso puede repetirse varias veces hasta obtener un funcionamiento adecuado.
     p.mb-4(data-aos="fade-down") Entre las principales actividades que hacen parte del proceso de pruebas y corrección de errores se encuentran:
     .row.justify-content-center.align-items-stretch.mb-4.g-0
@@ -241,7 +241,7 @@
               p.mb-0 Repetir las pruebas para verificar la efectividad de las correcciones realizadas.
       .col-lg-4.col-8.col-md-6.order-lg-1.order-1.mb-lg-0.mb-4
         figure
-          img(src='@/assets/curso/temas/t6/img14.svg', alt='Imagen decorativa')
+          img(src='@/assets/curso/temas/t6/img14.svg')
     .row.justify-content-center.mb-4(data-aos="flip-up")
       .col-lg-10.col-12
         .titulo-sexto.color-acento-contenido

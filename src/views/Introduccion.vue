@@ -12,7 +12,7 @@
     .row.justify-content-center.mb-4
       .col.col-lg-4.col-8.col-md-6.order-lg-1.order-1.mb-lg-0.mb-3
         figure
-          img(src='@/assets/curso/temas/intro/img01.svg', alt='Imagen decorativa')
+          img(src='@/assets/curso/temas/intro/img01.svg')
       .col.col-lg-8.col-12.order-lg-2.order-2
         .cajon.cajon.C08.color-primario.p-4.mb-3
           p.mb-0(data-aos="fade-down") En este componente se abordan los principios de la programación orientada a objetos, como el encapsulamiento, la herencia, el polimorfismo y la abstracción, así como el uso del Lenguaje Unificado de Modelado (UML) para el diseño y la representación de sistemas de <em>software</em>. Estos conocimientos facilitan el análisis, diseño e implementación de aplicaciones mediante modelos que apoyan la comunicación entre los integrantes del equipo de desarrollo y orientan el proceso de construcción del <em>software</em>.

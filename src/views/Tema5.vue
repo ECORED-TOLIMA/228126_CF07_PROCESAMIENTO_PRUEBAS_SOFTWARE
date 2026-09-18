@@ -15,7 +15,7 @@
     .row.justify-content-center.mb-0
       .col.col-lg-4.col-8.col-md-6.order-lg-1.order-1.mb-lg-0.mb-3
         figure
-          img(src='@/assets/curso/temas/t5/img02.svg', alt='Imagen decorativa')
+          img(src='@/assets/curso/temas/t5/img02.svg')
       .col.col-lg-8.col-12.order-lg-2.order-2
         .cajon.cajon.C08.color-primario.p-4.mb-3
           p.mb-0(data-aos="fade-down") Gracias al polimorfismo, es posible diseñar soluciones que reutilizan estructuras comunes y, al mismo tiempo, permiten que cada clase implemente comportamientos específicos de acuerdo con sus necesidades. Este principio facilita la organización del código, reduce la duplicidad y contribuye al mantenimiento y evolución de las aplicaciones, especialmente cuando se desarrollan proyectos de mayor complejidad.
@@ -26,12 +26,12 @@
     p.mb-4(data-aos="fade-down") El polimorfismo es uno de los principios fundamentales de la programación orientada a objetos que permite que un mismo método o una misma referencia presente diferentes comportamientos según el objeto sobre el cual actúe. Esta característica favorece la reutilización del código y proporciona mayor flexibilidad en el desarrollo de aplicaciones, ya que una misma operación puede adaptarse a distintas clases relacionadas mediante la herencia.
     .row.justify-content-center.align-items-stretch.mb-4.g-0
       .col-lg-6.col-12.order-lg-1.order-2
-        .cajon.C08.p-4.h-100.w-100
+        .cajon.C09.p-4.h-100.w-100
           p(data-aos="fade-down") El funcionamiento del polimorfismo se basa en la posibilidad de utilizar una referencia de una clase base para acceder a objetos de sus clases derivadas. Aunque los objetos comparten una estructura común, cada uno puede ejecutar una implementación diferente de un mismo método, de acuerdo con las características definidas en su propia clase.
           p.mb-0(data-aos="fade-down") En Java, el polimorfismo se manifiesta principalmente mediante la herencia y la sobrescritura de métodos. Esto permite que una referencia de la clase padre invoque el comportamiento correspondiente al objeto que representa en tiempo de ejecución, favoreciendo la construcción de aplicaciones más dinámicas, flexibles y fáciles de mantener.
       .col-lg-6.col-8.col-md-6.order-lg-2.order-1.mb-lg-0.mb-4
         figure
-          img(src='@/assets/curso/temas/t5/img03.jpg', alt='Imagen decorativa')
+          img(src='@/assets/curso/temas/t5/img03.jpg')
     p.mb-4(data-aos="fade-down") Entre los principales beneficios del polimorfismo se destacan:
     .row.mb-4
       .col-12
@@ -110,7 +110,7 @@
     .row.justify-content-center.align-items-center.mb-4
       .col.col-lg-auto.col-6.col-md-6.order-lg-1.order-1.mb-lg-0.mb-3
         figure
-          img(src='@/assets/curso/temas/t5/img10.svg', alt='Imagen decorativa')
+          img(src='@/assets/curso/temas/t5/img10.svg')
       .col.col-lg-9.col-12.order-lg-2.order-2
         .cajon.cajon.C03.px-4.py-2
           p.mb-0(data-aos="fade-down") En el ejemplo anterior, las variables <b>persona1</b> y <b>persona2</b> son referencias de la clase <b>Persona</b>, pero cada una apunta a un objeto de una clase diferente. Al invocar el método <b>presentarse()</b>, se ejecuta la implementación correspondiente al tipo real del objeto, evidenciando el comportamiento polimórfico.
@@ -121,7 +121,7 @@
     .row.justify-content-center.mb-4
       .col.col-lg-5.col-8.col-md-6.order-lg-2.order-1.mb-lg-0.mb-3
         figure
-          img(src='@/assets/curso/temas/t5/img11.jpg', alt='Imagen decorativa')
+          img(src='@/assets/curso/temas/t5/img11.jpg')
       .col.col-lg-7.col-12.order-lg-1.order-2
         p.mb-4(data-aos="fade-down") La sobrecarga de métodos es una característica de la programación orientada a objetos que permite definir varios métodos con el mismo nombre dentro de una misma clase, siempre que se diferencien por la cantidad, el tipo o el orden de sus parámetros. Este mecanismo facilita la reutilización de nombres de métodos para realizar operaciones relacionadas, adaptándolas a diferentes necesidades sin generar conflictos durante la compilación.
         .cajon.cajon.C08.color-primario.p-4.mb-0
@@ -189,7 +189,7 @@
           .row.align-items-center
             .col-lg-auto.d-none.d-lg-block
               figure
-                img(src='@/assets/curso/temas/t5/img12.svg', alt='Imagen decorativa')
+                img(src='@/assets/curso/temas/t5/img12.svg')
             .col-lg-10.col-12
               p.mb-0 En Java, cuando una referencia de la clase padre apunta a un objeto de una clase derivada, la ejecución del método sobrescrito depende del tipo real del objeto y no del tipo de la referencia. Este comportamiento se determina durante la ejecución del programa, lo que permite desarrollar aplicaciones más flexibles y adaptables a diferentes escenarios.
     p.mb-4(data-aos="fade-down") En este punto es importante identificar las principales diferencias entre la sobrecarga y la sobrescritura de métodos.
@@ -283,7 +283,7 @@
     .row.justify-content-center.mb-4
       .col.col-lg-4.col-8.col-md-6.order-lg-1.order-1.mb-lg-0.mb-3
         figure
-          img(src='@/assets/curso/temas/t5/img13.jpg', alt='Imagen decorativa')
+          img(src='@/assets/curso/temas/t5/img13.jpg')
       .col.col-lg-8.col-12.order-lg-2.order-2
         p.mb-4(data-aos="fade-down") La aplicación del polimorfismo mediante herencia permite desarrollar aplicaciones en las que una misma referencia puede gestionar objetos pertenecientes a diferentes clases derivadas. Este mecanismo facilita la reutilización del código y posibilita la incorporación de nuevas funcionalidades sin modificar la lógica general de la aplicación.
         .cajon.cajon.C08.color-primario.p-4.mb-0

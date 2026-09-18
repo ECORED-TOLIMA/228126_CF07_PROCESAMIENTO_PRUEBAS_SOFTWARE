@@ -10,7 +10,7 @@
     .row.justify-content-center.mb-0
       .col.col-lg-4.col-8.col-md-6.order-lg-1.order-1.mb-lg-0.mb-3
         figure
-          img(src='@/assets/curso/temas/t4/img01.jpg', alt='Imagen decorativa')
+          img(src='@/assets/curso/temas/t4/img01.jpg')
       .col.col-lg-6.col-12.order-lg-2.order-2
         .cajon.cajon.C08.color-primario.p-4.mb-3
           p.mb-0(data-aos="fade-down") Mediante la herencia es posible establecer relaciones entre clases, compartiendo atributos y métodos comunes, al tiempo que se incorporan nuevas características o comportamientos según las necesidades del sistema. Este enfoque reduce la duplicidad de código y promueve una estructura más organizada durante el desarrollo de aplicaciones.
@@ -27,7 +27,7 @@
     .row.justify-content-center.align-items-center.mb-4
       .col.col-lg-auto.col-6.col-md-6.order-lg-1.order-1.mb-lg-0.mb-3
         figure
-          img(src='@/assets/curso/temas/t4/img03.svg', alt='Imagen decorativa')
+          img(src='@/assets/curso/temas/t4/img03.svg')
       .col.col-lg-9.col-12.order-lg-2.order-2
         .cajon.cajon.C03.px-4.py-2
           p.mb-0(data-aos="fade-down") Este principio favorece la organización del <em>software</em> al establecer relaciones entre clases que comparten características comunes. En lugar de duplicar código, es posible reutilizar los elementos ya definidos en una clase existente, facilitando el mantenimiento y la evolución del sistema.
@@ -35,25 +35,25 @@
     .row.bg03.justify-content-center.align-items-center.px-3.mb-4
       .col.col-lg-3.col-6.col-md-6.order-lg-2.order-1.mb-lg-0.mb-3
         figure
-          img(src='@/assets/curso/temas/t4/img04.svg', alt='Imagen decorativa')
+          img(src='@/assets/curso/temas/t4/img04.svg')
       .col.col-lg-6.col-12.order-lg-1.order-2
         .tarjeta.tarjeta--blanca.p-4
           p.mb-4.text-bold Entre los principales beneficios de la herencia se encuentran:
           ul.lista-ul--color.mb-4(data-aos="fade-down")
             li
-              i.fas.fa-cloud-arrow-down
+              i.fas.fa-file-code
               p.mb-0 Reutilizar atributos y métodos definidos en otras clases.
             li
-              i.fas.fa-cloud-arrow-down
+              i.fas.fa-file-code
               p.mb-0 Reducir la duplicidad de código durante el desarrollo.
             li
-              i.fas.fa-cloud-arrow-down
+              i.fas.fa-file-code
               p.mb-0 Facilitar el mantenimiento y la actualización de las aplicaciones.
             li
-              i.fas.fa-cloud-arrow-down
+              i.fas.fa-file-code
               p.mb-0 Favorecer la organización jerárquica de las clases.
             li
-              i.fas.fa-cloud-arrow-down
+              i.fas.fa-file-code
               p.mb-0 Incrementar la reutilización y escalabilidad de los componentes de <em>software</em>.
     p.mb-4(data-aos="fade-down") A continuación, se presenta un ejemplo de herencia utilizando el lenguaje de programación Java:
     .row.justify-content-center.mb-4
@@ -80,7 +80,7 @@
     .row.justify-content-center.mb-4
       .col.col-lg-4.col-8.col-md-6.order-lg-1.order-1.mb-lg-0.mb-3
         figure
-          img(src='@/assets/curso/temas/t4/img05.svg', alt='Imagen decorativa')
+          img(src='@/assets/curso/temas/t4/img05.svg')
       .col.col-lg-8.col-12.order-lg-2.order-2
         .cajon.cajon.C08.color-primario.p-4.mb-4
           p.mb-0(data-aos="fade-down") La herencia puede clasificarse según la forma en que una clase deriva sus características de otras clases. Los tipos más conocidos son la herencia simple y la herencia múltiple, cada uno con características y aplicaciones particulares.
@@ -101,7 +101,7 @@
     .row.justify-content-center.align-items-center.mb-4
       .col.col-lg-auto.col-6.col-md-6.order-lg-1.order-1.mb-lg-0.mb-3
         figure
-          img(src='@/assets/curso/temas/t4/img06.svg', alt='Imagen decorativa')
+          img(src='@/assets/curso/temas/t4/img06.svg')
       .col.col-lg-9.col-12.order-lg-2.order-2
         .cajon.cajon.C03.px-4.py-3
           p.mb-0(data-aos="fade-down") En este ejemplo, la clase <b>Aprendiz</b> hereda los atributos de la clase <b>Persona</b> y añade un nuevo atributo denominado <b>programa</b>, propio del contexto de formación.
@@ -174,7 +174,7 @@
     .row.justify-content-center.mb-4
       .col.col-lg-5.col-8.col-md-6.order-lg-1.order-1.mb-lg-0.mb-3
         figure
-          img(src='@/assets/curso/temas/t4/img08.jpg', alt='Imagen decorativa')
+          img(src='@/assets/curso/temas/t4/img08.jpg')
       .col.col-lg-7.col-12.order-lg-2.order-2
         p(data-aos="fade-down") Las clases abstractas son clases que sirven como modelo para otras clases, permitiendo definir atributos y métodos comunes que podrán ser reutilizados por las clases derivadas. Estas clases no pueden instanciarse directamente, ya que su propósito es establecer una estructura general que posteriormente será especializada mediante la herencia.
         p(data-aos="fade-down") Además de contener atributos y métodos implementados, una clase abstracta puede declarar métodos abstractos, los cuales definen únicamente su nombre, parámetros y tipo de retorno, sin incluir una implementación. Las clases derivadas que heredan de una clase abstracta deben proporcionar la implementación de estos métodos, adaptándolos a sus propias necesidades.
@@ -211,7 +211,7 @@
     .row.justify-content-center.mb-4
       .col.col-lg-5.col-8.col-md-6.order-lg-2.order-1.mb-lg-0.mb-3
         figure
-          img(src='@/assets/curso/temas/t4/img09.jpg', alt='Imagen decorativa')
+          img(src='@/assets/curso/temas/t4/img09.jpg')
       .col.col-lg-7.col-12.order-lg-1.order-2
         p(data-aos="fade-down") En una relación de herencia, las clases derivadas también utilizan constructores para inicializar sus propios atributos. Cuando se crea un objeto de una clase derivada, primero se ejecuta el constructor de la clase base y, posteriormente, el constructor de la clase derivada. Este proceso garantiza que los atributos heredados y los propios de la nueva clase queden correctamente inicializados.
         .cajon.cajon.C08.color-primario.p-4.mb-0
