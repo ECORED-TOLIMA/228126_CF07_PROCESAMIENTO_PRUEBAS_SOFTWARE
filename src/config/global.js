@@ -375,14 +375,14 @@ export default {
       titulo: 'ECOSISTEMA DE RECURSOS EDUCATIVOS DIGITALES',
       autores: [
         {
-          nombre: 'Claudia Johanna Gómez Pérez',
+          nombre: 'Claudia Johanna Gómez Pérez ',
           cargo:
             'Profesional G06. Responsable Ecosistema Virtual de Recursos Educativos Digitales',
           centro: 'Centro Agroturístico - Regional Santander',
         },
         {
           nombre: 'Diana Rocío Possos Beltrán',
-          cargo: 'Responsable de línea de producción',
+          cargo: 'Responsable de línea de producción ',
           centro: 'Centro de Comercio y Servicios - Regional Tolima',
         },
       ],
@@ -391,7 +391,12 @@ export default {
       titulo: 'CONTENIDO INSTRUCCIONAL',
       autores: [
         {
-          nombre: 'Viviana Esperanza Herrera Quiñonez',
+          nombre: 'Gustavo Ernesto Mariño Puentes',
+          cargo: 'Experto temático',
+          centro: 'Centro de Comercio y Servicios - Regional Tolima',
+        },
+        {
+          nombre: 'Gloria Lida Alzate Suárez',
           cargo: 'Evaluadora instruccional',
           centro: 'Centro de Comercio y Servicios - Regional Tolima',
         },
@@ -401,17 +406,17 @@ export default {
       titulo: 'DISEÑO Y DESARROLLO DE RECURSOS EDUCATIVOS DIGITALES',
       autores: [
         {
-          nombre: 'Jose Yobani Penagos Mora',
+          nombre: 'Juan Daniel Polanco Muñoz',
           cargo: 'Diseñador de contenidos digitales',
           centro: 'Centro de Comercio y Servicios - Regional Tolima',
         },
         {
-          nombre: 'Sebastian Trujillo Afanador',
+          nombre: 'Manuel Felipe Echavarria Orozco',
           cargo: 'Desarrollador <em>full stack</em>',
           centro: 'Centro de Comercio y Servicios - Regional Tolima',
         },
         {
-          nombre: 'Gilberto Junior Rodríguez Rodríguez',
+          nombre: 'Ernesto Navarro Jaimes ',
           cargo: 'Animador y productor audiovisual',
           centro: 'Centro de Comercio y Servicios - Regional Tolima',
         },
@@ -421,7 +426,7 @@ export default {
       titulo: 'VALIDACIÓN RECURSO EDUCATIVO DIGITAL',
       autores: [
         {
-          nombre: 'María Fernanda Pineda Mora',
+          nombre: 'Jorge Eduardo Rueda Peña',
           cargo: 'Evaluador de contenidos inclusivos y accesibles',
           centro: 'Centro de Comercio y Servicios - Regional Tolima',
         },
