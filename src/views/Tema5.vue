@@ -185,7 +185,7 @@
     p.mb-4(data-aos="fade-down") La sobrescritura de métodos constituye uno de los mecanismos que hacen posible el polimorfismo en la programación orientada a objetos. Mediante este proceso, una clase derivada redefine el comportamiento de un método heredado de la clase base, permitiendo que cada objeto responda de manera diferente ante una misma operación.
     .row.justify-content-center.mb-4
       .col-lg-10.col-12
-        .cajon.cajon.C10.p-4
+        .tarjeta--C12.p-4
           .row.align-items-center
             .col-lg-auto.d-none.d-lg-block
               figure

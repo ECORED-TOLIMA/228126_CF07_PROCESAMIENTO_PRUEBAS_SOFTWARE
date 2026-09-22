@@ -104,10 +104,10 @@
         .row.justify-content-center
           .col-10
             figure.desktop
-              img(src='@/assets/curso/temas/t1/img07.svg', alt='En la figura 1 se presenta el proceso mediante el cual una clase, definida durante la fase de diseño del <em>software</em>, da origen a un objeto mediante la instanciación durante la ejecución de la aplicación.')
+              img(src='@/assets/curso/temas/t1/img07.svg', alt='En la figura 1 se presenta el proceso mediante el cual una clase, definida durante la fase de diseño del software, da origen a un objeto mediante la instanciación durante la ejecución de la aplicación.')
         .col-12.mb-0
           figure.movil
-            img(src='@/assets/curso/temas/t1/img08.svg', alt='En la figura 1 se presenta el proceso mediante el cual una clase, definida durante la fase de diseño del <em>software</em>, da origen a un objeto mediante la instanciación durante la ejecución de la aplicación.')
+            img(src='@/assets/curso/temas/t1/img08.svg', alt='En la figura 1 se presenta el proceso mediante el cual una clase, definida durante la fase de diseño del software, da origen a un objeto mediante la instanciación durante la ejecución de la aplicación.')
       .row.justify-content-center.align-items-center.mb-4
         .col.col-lg-2.col-8.col-md-6.order-lg-1.order-1.mb-lg-0.mb-3
           figure
