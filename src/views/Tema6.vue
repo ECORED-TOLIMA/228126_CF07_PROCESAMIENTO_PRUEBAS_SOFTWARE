@@ -132,6 +132,8 @@
         p.mb-4 Durante el desarrollo de una aplicación es frecuente encontrar errores que afectan su funcionamiento. Estos errores pueden impedir que el programa se ejecute o provocar resultados diferentes a los esperados. Identificar el tipo de falla facilita el proceso de depuración y permite aplicar la corrección más adecuada.
         .cajon.cajon.C08.color-primario.px-4.py-3.mb-0
           p.mb-0(data-aos="fade-down") Las fallas más comunes durante el desarrollo de programas corresponden a errores de sintaxis y errores de lógica. Mientras las primeras están relacionadas con el incumplimiento de las reglas del lenguaje de programación, las segundas se presentan cuando el algoritmo o la implementación no producen el resultado esperado, aunque el programa pueda ejecutarse correctamente.
+
+    p.mt-4 Las fallas más comunes durante el desarrollo de programas corresponden a errores de sintaxis y errores de lógica. Mientras las primeras están relacionadas con el incumplimiento de las reglas del lenguaje de programación, las segundas se presentan cuando el algoritmo o la implementación no producen el resultado esperado, aunque el programa pueda ejecutarse correctamente. Con el fin de facilitar su diferenciación, la siguiente tabla presenta sus principales características y algunos ejemplos representativos:
     .row.justify-content-center.mb-4(data-aos="flip-up")
       .col.col-12
         .titulo-sexto.color-acento-contenido

@@ -5,7 +5,7 @@
     .titulo-principal.color-acento-contenido
       .titulo-principal__numero
         span 2
-      h1 Modelado y diseño de #[i <em>software</em>]
+      h1 Modelado y diseño de #[i software]
     p.mb-4(data-aos="fade-down") El modelado y diseño de <em>software</em> constituye una etapa fundamental del proceso de desarrollo, ya que permite definir la estructura, el comportamiento y la organización de una aplicación antes de iniciar su implementación. Durante esta fase se analizan los requerimientos del sistema, se identifican sus componentes y se establecen las relaciones e interacciones necesarias para satisfacer las necesidades del usuario.
     .bloque-texto-g.bloque-texto-g--inverso.cajon.C09.p-3.p-sm-4.p-md-5.mb-4(data-aos="flip-up")
       .bloque-texto-g__img(
@@ -169,7 +169,7 @@
       .col.col-lg-9.col-12.order-lg-2.order-2
         .tarjeta--C12.px-4.py-2
           p.mb-0(data-aos="fade-down") La representación gráfica de las clases mediante UML facilita la organización y comprensión de la estructura de un sistema de <em>software</em>, constituyendo un recurso fundamental para el análisis, el diseño y la documentación de aplicaciones orientadas a objetos.
-    p.mb-4(data-aos="fade-down") Además de la representación de las clases, UML emplea símbolos para indicar el nivel de visibilidad o acceso de los atributos y las operaciones. Estos símbolos corresponden a los especificadores de acceso que posteriormente se implementan mediante la sintaxis del lenguaje de programación utilizado. Esta notación facilita la interpretación de los diagramas y permite identificar el alcance de cada elemento dentro del modelo.
+    p.mb-4(data-aos="fade-down") Además de la representación de las clases, UML emplea símbolos para indicar el nivel de visibilidad o acceso de los atributos y las operaciones. Estos símbolos corresponden a los especificadores de acceso que posteriormente se implementan mediante la sintaxis del lenguaje de programación utilizado. Esta notación facilita la interpretación de los diagramas y permite identificar el alcance de cada elemento dentro del modelo, tal como se indica a continuación:
     .row.justify-content-center.mb-4(data-aos="flip-up")
       .col.col-12
         .titulo-sexto.color-acento-contenido
@@ -242,7 +242,7 @@
                   img(src='@/assets/curso/temas/t2/img25.svg')(style="width: 100%")
             h4.text-center Herencia (generalización)
             p.mb-0(data-aos="fade-down") Representa la relación mediante la cual una clase puede heredar atributos y operaciones de otra clase, favoreciendo la reutilización de código y la organización jerárquica del modelo.
-    p.mb-4(data-aos="fade-down") Las relaciones entre clases permiten representar de manera organizada la interacción y dependencia entre los diferentes elementos de un sistema, facilitando el análisis, el diseño y la construcción de modelos orientados a objetos con una estructura clara y coherente.
+    p.mb-4(data-aos="fade-down") Las relaciones entre clases permiten representar de manera organizada la interacción y dependencia entre los diferentes elementos de un sistema, facilitando el análisis, el diseño y la construcción de modelos orientados a objetos con una estructura clara y coherente. Por lo tanto, a continuación, se presentan los principales tipos de relaciones entre clases en UML, junto con su símbolo y característica principal:
     .row.justify-content-center.mb-4(data-aos="flip-up")
       .col.col-12
         .titulo-sexto.color-acento-contenido

@@ -126,7 +126,7 @@
         p.mb-4(data-aos="fade-down") La sobrecarga de métodos es una característica de la programación orientada a objetos que permite definir varios métodos con el mismo nombre dentro de una misma clase, siempre que se diferencien por la cantidad, el tipo o el orden de sus parámetros. Este mecanismo facilita la reutilización de nombres de métodos para realizar operaciones relacionadas, adaptándolas a diferentes necesidades sin generar conflictos durante la compilación.
         .cajon.cajon.C08.color-primario.p-4.mb-0
           p.mb-0(data-aos="fade-down") En Java, el compilador identifica cuál método debe ejecutarse de acuerdo con los argumentos enviados en la llamada. De esta manera, es posible utilizar un mismo nombre para métodos que realizan una función similar, pero que reciben información diferente.
-    p.mb-4(data-aos="fade-down") La siguiente tabla presenta las principales características de la sobrecarga de métodos.
+    p.mb-4(data-aos="fade-down") La siguiente tabla presenta las principales características de la sobrecarga de métodos:
     .row.justify-content-center.mb-4(data-aos="flip-up")
       .col.col-12
         .titulo-sexto.color-acento-contenido
@@ -193,6 +193,7 @@
             .col-lg-10.col-12
               p.mb-0 En Java, cuando una referencia de la clase padre apunta a un objeto de una clase derivada, la ejecución del método sobrescrito depende del tipo real del objeto y no del tipo de la referencia. Este comportamiento se determina durante la ejecución del programa, lo que permite desarrollar aplicaciones más flexibles y adaptables a diferentes escenarios.
     p.mb-4(data-aos="fade-down") En este punto es importante identificar las principales diferencias entre la sobrecarga y la sobrescritura de métodos.
+    p A continuación, se presentan las principales diferencias entre la sobrecarga y la sobrescritura de métodos, considerando aspectos como su ubicación, parámetros, relación con la herencia, momento de resolución y propósito:
     .row.justify-content-center.mb-4(data-aos="flip-up")
       .col.col-12
         .titulo-sexto.color-acento-contenido

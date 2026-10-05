@@ -106,6 +106,8 @@
         .cajon.cajon.C03.px-4.py-3
           p.mb-0(data-aos="fade-down") En este ejemplo, la clase <b>Aprendiz</b> hereda los atributos de la clase <b>Persona</b> y añade un nuevo atributo denominado <b>programa</b>, propio del contexto de formación.
     p.mb-4(data-aos="fade-down") La <b>herencia múltiple</b> se presenta cuando una clase puede heredar características de dos o más clases base. Aunque este mecanismo está disponible en algunos lenguajes de programación, Java no permite la herencia múltiple entre clases debido a la posibilidad de generar ambigüedades durante la ejecución del programa. No obstante, Java ofrece mecanismos alternativos, como las interfaces, que permiten compartir comportamientos entre diferentes clases sin recurrir a la herencia múltiple de clases.
+
+    p A continuación, se presenta una comparación entre la herencia simple y la herencia múltiple, considerando sus principales características y su implementación en Java:
     .row.justify-content-center.mb-4(data-aos="flip-up")
       .col.col-12
         .titulo-sexto.color-acento-contenido

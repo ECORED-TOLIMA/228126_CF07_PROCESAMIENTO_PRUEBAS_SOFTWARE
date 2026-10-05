@@ -118,7 +118,7 @@
         .col.col-lg-10.col-12
           .cajon.color-secundario.cajon.C02.p-4
             p.mb-0(data-aos="fade-down") Comprender esta diferencia resulta fundamental para diseñar aplicaciones orientadas a objetos, ya que una misma clase puede utilizarse para crear múltiples objetos independientes que colaboran entre sí durante la ejecución del <em>software</em>.
-      p.mb-4(data-aos="fade-down") Aunque ambos conceptos mantienen una relación directa, presentan diferencias en cuanto a su propósito, existencia y comportamiento durante la ejecución de una aplicación. La siguiente tabla resume las principales características que permiten distinguir una clase de un objeto.
+      p.mb-4(data-aos="fade-down") Aunque ambos conceptos mantienen una relación directa, presentan diferencias en cuanto a su propósito, existencia y comportamiento durante la ejecución de una aplicación. La siguiente tabla resume las principales características que permiten distinguir una clase de un objeto:
       .row.justify-content-center.mb-4(data-aos="flip-up")
         .col.col-12
           .titulo-sexto.color-acento-contenido
