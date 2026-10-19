@@ -335,7 +335,10 @@
                 img(src='@/assets/curso/temas/t1/img26.png')
               h4 Polimorfismo
               p.mb-0 Permite que una misma operación tenga diferentes comportamientos según el objeto que la implemente, proporcionando mayor flexibilidad y extensibilidad a las aplicaciones.
-        p.mb-0(data-aos="fade-down") La aplicación conjunta de estos principios favorece el desarrollo de <em>software</em> modular, facilita la reutilización del código y contribuye a construir aplicaciones escalables, mantenibles y adaptables a diferentes necesidades.
+      
+      p.mt-4 La aplicación conjunta de estos principios favorece el desarrollo de <em>software</em> modular, facilita la reutilización del código y contribuye a construir aplicaciones escalables, mantenibles y adaptables a diferentes necesidades.
+
+        
       separador
       #t_1_5.titulo-segundo.color-acento-contenido(data-aos="flip-up")
         h2 1.5 Interacción entre objetos

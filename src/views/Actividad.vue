@@ -404,7 +404,7 @@ export default {
             },
             {
               id: 'c',
-              texto: '<em>extends</em>',
+              texto: 'extends',
               esCorrecta: true,
             },
             {
